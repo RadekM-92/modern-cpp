@@ -1,7 +1,12 @@
 #pragma once
 
+#include "Color.hpp"
+
 class Shape
 {
+private:
+    Color color_ = Color::RED;
+
 public:
     virtual ~Shape() {}
 
