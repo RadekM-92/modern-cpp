@@ -9,9 +9,9 @@ public:
     Square(const Square & other) = default;
     Square() = delete;
 
-    double getArea();
-    double getPerimeter();
-    void print();
+    double getArea() const override;
+    double getPerimeter() const override;
+    void print() const override;
 
 private:
 };
